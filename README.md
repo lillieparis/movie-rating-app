@@ -1,3 +1,19 @@
+I completed this assignment as part of Chapter 1 of the Vue.js Essentials Training. The exact outline for the assignment can be found at the bottom of the page.
+
+## How To Use
+When first accessing site, you will be brought to this initial dashboard. The website will always populate with the following movies as they were defined in the .json file used to populate the site.
+![Dashboard](./MovDash.jpg)
+Each movie includes: title, image, description, genre, and rating
+![Movie Detail](./MovDetail.jpg)
+
+
+## Prerequisites
+To start the applcation you must have npm installed. Then, simply run:
+npm run dev
+
+
+
+## Original Assignment 
 ---
 difficulty: 1
 chapter: "Chapter 1: Vue.js Essentials"
@@ -23,19 +39,4 @@ During this challenge, we’ll code out the following features:
 ## Other Considerations
 
 - If you see the `data-test` attribute anywhere in the boilerplate don't remove it.
-- TailwindCSS is preinstalled with the default config. It might be helpful for you, if you want to have some styles. (Not obligatory)
-
->
-> 😀 The movie list is provided as boilerplate, but feel free to add your favorite one into the list.
->
-
->
-> 👀 Don't peek at the solution until you've solved the exercise yourself or exhausted your resources. Challenging yourself will best prepare you for the exam
->
-
-
-## Example of Finished App
-
-This is an example of what the functionality should look like for the completed exercise. If you’d like to mimic this style, feel free to do so, but it is not required.
-
-![Finished app in this challenge](https://i.imgur.com/HV3dXET.png)
+- TailwindCSS is preinstalled with the default 

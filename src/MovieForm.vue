@@ -53,7 +53,7 @@ onMounted(() =>{
   <div v-if="popupOpen" class="add-new-movie-popup" >
     <!-- title -->
     <h1>{{title}}</h1>
-    
+
     <p>Name:</p>
     <input ref="my-input" v-model.trim="newMovie.name">
     <p>Description:</p>
@@ -61,7 +61,7 @@ onMounted(() =>{
     <p>Image:</p>
     <input v-model.trim="newMovie.image">
     <p>Genre:</p>
-    <select class="selector" v-model="newMovie.genres" multiple>
+    <select class="selector"  v-model="newMovie.genres" multiple>
       <option disabled value="">Select your movie's genre</option>
       <option value="Crime">Crime</option>
       <option value="Comedy">Comedy</option>
@@ -87,6 +87,11 @@ onMounted(() =>{
 
 
 <style>
+.selector{
+  color: black;
+  background-color: white;
+}
+
 .close-button{
   border: 2px solid #ffffff;
   color: aliceblue;
@@ -107,6 +112,7 @@ onMounted(() =>{
   align-items: center;
 }
 .add-new-movie-popup{
+  color: aliceblue;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -115,8 +121,13 @@ onMounted(() =>{
   left: 30%;
   top: 30%;
   position: relative;
-  background-color: #dbd9e7;
+  background-color: #1b0987;
   z-index: 5;
+}
+
+.add-new-movie-popup input {
+  color: black;
+  background-color: white;
 }
 
 

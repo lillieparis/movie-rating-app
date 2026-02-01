@@ -324,7 +324,7 @@ const resetRatingsFunc = () => {
   left: 30%;
   top: 30%;
   position: fixed;
-  background-color: #dbd9e7;
+  background-color: #3521ad;
 
   
   
