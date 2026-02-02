@@ -2,9 +2,9 @@ I completed this assignment as part of Chapter 1 of the Vue.js Essentials Traini
 
 ## How To Use
 When first accessing site, you will be brought to this initial dashboard. The website will always populate with the following movies as they were defined in the .json file used to populate the site.
-![Dashboard](./MovDash.jpg)
+![Dashboard](./images/MovDash.png)
 Each movie includes: title, image, description, genre, and rating
-![Movie Detail](./MovDetail.jpg)
+![Movie Detail](./images/MovDetail.png)
 
 
 ## Prerequisites
